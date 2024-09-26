@@ -6,7 +6,7 @@ This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.
 
 # List of Jupyter Notebooks
 
-To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Example_files** folder. Once you create the paths in one notebook, you can paste the necessary files (or all if you clone the repository) into the **Data_examples** folder. Then, you can run all the cells of each notebook.
+To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you clone the repository, you can run all the cells of each notebook.
 
 #### estimation_stats_dabest
 - Estimation statistics using the library [DABEST](https://acclab.github.io/DABEST-python/) by [Ho et al., 2019](https://doi.org/10.1038/s41592-019-0470-3).
