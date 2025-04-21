@@ -6,7 +6,7 @@ This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.
 
 # List of Jupyter Notebooks
 
-To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Example_files** folder. Once you create the paths in one notebook, you can paste the necessary files (or all if you clone the repository) into the **Data_examples** folder. Then, you can run all the cells of each notebook.
+To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you clone the repository, you can run all the cells of each notebook.
 
 #### estimation_stats_dabest
 - Estimation statistics using the library [DABEST](https://acclab.github.io/DABEST-python/) by [Ho et al., 2019](https://doi.org/10.1038/s41592-019-0470-3).
@@ -68,24 +68,29 @@ To simplify the folder structure of this GitHub repository, I have placed all th
 - Sandve et al., 2013. [Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285).
 - Wilson et al., 2017. [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510).
 
-## Plotting
+## Data visualization
 
+- Friends Don't Let Friends Make Bad Graphs. [GitHub](https://github.com/cxli233/FriendsDontLetFriends). Good examples (in R) about good and bad practices in data visualization
+- [From Data to Viz](https://www.data-to-viz.com/). Great website on choosing the right graph with examples in [Python](https://python-graph-gallery.com/).
 - [Python Color Palette Finder](https://python-graph-gallery.com/color-palette-finder/): A collection of 2500+ palettes to use directly in Matplotlib.
+- [Seaborn](https://seaborn.pydata.org/tutorial.html). Superb data visualization library based on matplotlib.
 
 ## Statistics
 - James et al., 2023. [An Introduction to Statistical Learning](https://www.statlearning.com/).
-- Lindeløv, 2019. [Common statistical tests are linear models](https://www.georgeho.org/tests-as-linear/). Port by George Ho.
+- Lindeløv, 2019. [Common statistical tests are linear models](https://www.georgeho.org/tests-as-linear/). Port to Python by George Ho.
 - Navarro and Weed, 2021. [Learning Statistics with Python](https://ethanweed.github.io/pythonbook/landingpage.html).
+- Poldrack R, 2024. Statistical Thinking for the 21st Century. [Book](https://statsthinking21.github.io/statsthinking21-core-site/index.html), [Python code](https://statsthinking21.github.io/statsthinking21-python/).
 - Weed, 2021. [Learning Statistics with Python](https://ethanweed.github.io/pythonbook/landingpage.html).
 
 ## Neuroscience
 
 - Data Carpentry. [Image Processing with Python](https://datacarpentry.org/image-processing/).
+- DeepLabCut. [GitHub](https://github.com/DeepLabCut). Widely used toolbox for pose estimation. 
 - Kramer and Eden. [Case Studies in Neural Data Analysis](https://mark-kramer.github.io/Case-Studies-Python/intro.html). LFP and EEG examples.
 - Juavinett A. [Signal Processing](https://github.com/BILD62/Materials/blob/main/12-SignalProcessing.ipynb).
 - Neuromatch. [Computational Neuroscience](https://compneuro.neuromatch.io/tutorials/intro.html).
 - Newman A. [Data Science for Psychology and Neuroscience](https://neuraldatascience.io/intro.html). Examples of single-unit, EEG, and MRI data.
-- Spikes and Bursts Blog. [Patch-Clamp Data Analysis in Python](https://spikesandbursts.wordpress.com/patch-clamp/). Tutorials for analyzing action potentials, synaptic events, etc., from the [Spikes and Bursts](https://spikesandbursts.wordpress.com/about/) neuroscience blog.
+- Spikes and Bursts Blog. [Patch-Clamp Data Analysis in Python](https://spikesandbursts.wordpress.com/patch-clamp/). Tutorials for analyzing action potentials, synaptic events, etc., from my [Spikes and Bursts](https://spikesandbursts.wordpress.com/about/) neuroscience blog.
 
 ## Books
 
