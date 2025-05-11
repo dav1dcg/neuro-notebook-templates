@@ -4,9 +4,6 @@ This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.
 
 **Note**: All external libraries used in these notebooks are credited to their respective authors and contributors, subject to their licenses and terms.
 
-To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
-
-
 # List of Jupyter Notebooks
 
 To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
