@@ -1,42 +1,48 @@
 # Neuroscience Notebook Templates
 
-This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.nl/research-groups/lohmann/). Here, you will find basic templates for processing and analyzing neuroscience data that you may find useful. The notebooks are tested to run with the corresponding example data in the **Example_files** folder. Feel free to modify the notebooks for your own analysis.
+This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.nl/research-groups/lohmann/). Here, you will find basic templates for processing and analyzing neuroscience data that you may find useful. The notebooks are tested to run with the corresponding example data in the **Data_examples** folder. Feel free to modify the notebooks for your own analysis.
 
 **Note**: All external libraries used in these notebooks are credited to their respective authors and contributors, subject to their licenses and terms.
 
+To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
+
+
 # List of Jupyter Notebooks
 
-To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you clone the repository, you can run all the cells of each notebook.
+To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
 
-#### estimation_stats_dabest
+### cellpose_estimation_2p
+- Uses [cellpose](https://github.com/MouseLand/cellpose) to segment neurons from two-photon calcium imaging, then extracts and plots deltaF/F traces from each neuron.
+- Data_examples: 2P_GCaMP8m.tif, 2P_somaFRCaMPi.tif
+
+### estimation_stats_dabest
 - Estimation statistics using the library [DABEST](https://acclab.github.io/DABEST-python/) by [Ho et al., 2019](https://doi.org/10.1038/s41592-019-0470-3).
-- Data_examples: **cell_types_specimen_details.csv**.
+- Data_examples: cell_types_specimen_details.csv.
 
-#### lif_to_tif 
+### lif_to_tif 
 - Reads Leica Image Files (LIFs) using [AICSImage](https://allencellmodeling.github.io/aicsimageio/) and converts them to TIFF files, either as stacks or single files.
-- Data_examples: **LIF01.lif**, **LIF02.lif**, **LIF03.lif**.
+- Data_examples: LIF01.lif, LIF02.lif, LIF03.lif.
 
-#### nd2_to_tif
+### nd2_to_tif
 - Reads Nikon ND2 files using the [ND2](https://github.com/tlambert03/nd2) library and converts them to TIFF files. It also includes an example for downsampling stacks.
 - Data_examples: **NIK01a01_seq.nd2**, **NIK01b01.nd2**, **NIK02a01.nd2**.
 
-#### spectra_viewer
+### spectra_viewer
 - A basic fluorescence spectra viewer.
-- Data_examples: **filter_spectrum_479-585.txt**, **filter_spectrum_524_628.txt**, **fp_spectra_egfp.csv**, **fp_spectra_mapple.csv**, **led_spectrum_M470L5.xlsx**, **led_spectrum_M565L3.xlsx**.
+- Data_examples: filter_spectrum_479-585.txt, filter_spectrum_524_628.txt, fp_spectra_egfp.csv, fp_spectra_mapple.csv, led_spectrum_M470L5.xlsx, led_spectrum_M565L3.xlsx.
 
-#### superplots 
+### superplots 
 - Creates SuperPlots in Python using Matplotlib and Seaborn. This notebook adapts the tutorial by [Lord et al., 2020](https://doi.org/10.1083/jcb.202001064).
-- Data_examples: **cell_types_specimen_details.csv**, **jcb_202001064_datas1.txt**.
+- Data_examples: cell_types_specimen_details.csv, jcb_202001064_datas1.txt.
 
-#### time_series_preprocessing
+### time_series_preprocessing
 - Examples for detrending, filtering, and smoothing time series.
-- Data_examples: **WF01a.csv**, **WF02b.csv**.
+- Data_examples: WF01a.csv, WF02b.csv.
 
-#### video_to_tif 
+### video_to_tif 
 - Reads video files (e.g., AVI, MP4) with [OpenCV](https://docs.opencv.org/2.4/index.html) and converts them to TIFF files, with options for downsampling.
-- Data_examples: **FCM01.avi**, **FCM02a.mp4**.
+- Data_examples: FCM01.avi, FCM02a.mp4.
 
-<br>
 
 # Python Resources
 
