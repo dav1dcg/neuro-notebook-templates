@@ -12,6 +12,10 @@ To simplify the folder structure of this GitHub repository, I have placed all th
 - Uses [cellpose](https://github.com/MouseLand/cellpose) to segment neurons from two-photon calcium imaging, then extracts and plots deltaF/F traces from each neuron.
 - Data_examples: 2P_GCaMP8m.tif, 2P_somaFRCaMPi.tif
 
+### dataframes_plots
+- Examples for navigating DataFrames with [Pandas](https://pandas.pydata.org/), plotting with [Matplotlib](https://matplotlib.org/stable/gallery/index.html) and [Seaborn](https://seaborn.pydata.org/examples/index.html), and performing statistics with [SciPy](https://docs.scipy.org/doc/scipy/reference/stats.html).  
+- Data example: cell_types_specimen_details.csv.
+
 ### estimation_stats_dabest
 - Estimation statistics using the library [DABEST](https://acclab.github.io/DABEST-python/) by [Ho et al., 2019](https://doi.org/10.1038/s41592-019-0470-3).
 - Data_examples: cell_types_specimen_details.csv.
