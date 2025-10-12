@@ -8,39 +8,39 @@ This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.
 
 To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
 
-### cellpose_estimation_2p
+### [cellpose_estimation_2p](Notebooks/cellpose_estimation_2p.ipynb)
 - Uses [cellpose](https://github.com/MouseLand/cellpose) to segment neurons from two-photon calcium imaging, then extracts and plots deltaF/F traces from each neuron.
 - Data_examples: 2P_GCaMP8m.tif, 2P_somaFRCaMPi.tif
 
-### dataframes_plots
+### [dataframes_plots](Notebooks/dataframes_plots.ipynb)
 - Examples for navigating DataFrames with [Pandas](https://pandas.pydata.org/), plotting with [Matplotlib](https://matplotlib.org/stable/gallery/index.html) and [Seaborn](https://seaborn.pydata.org/examples/index.html), and performing statistics with [SciPy](https://docs.scipy.org/doc/scipy/reference/stats.html).  
 - Data example: cell_types_specimen_details.csv.
 
-### estimation_stats_dabest
+### [estimation_stats_dabest](Notebooks/estimation_stats_dabest.ipynb)
 - Estimation statistics using the library [DABEST](https://acclab.github.io/DABEST-python/) by [Ho et al., 2019](https://doi.org/10.1038/s41592-019-0470-3).
 - Data_examples: cell_types_specimen_details.csv.
 
-### lif_to_tif 
+### [lif_to_tif](Notebooks/lif_to_tif.ipynb) 
 - Reads Leica Image Files (LIFs) using [AICSImage](https://allencellmodeling.github.io/aicsimageio/) and converts them to TIFF files, either as stacks or single files.
 - Data_examples: LIF01.lif, LIF02.lif, LIF03.lif.
 
-### nd2_to_tif
+### [nd2_to_tif](Notebooks/nd2_to_tif.ipynb)
 - Reads Nikon ND2 files using the [ND2](https://github.com/tlambert03/nd2) library and converts them to TIFF files. It also includes an example for downsampling stacks.
 - Data_examples: **NIK01a01_seq.nd2**, **NIK01b01.nd2**, **NIK02a01.nd2**.
 
-### spectra_viewer
+### [spectra_viewer](Notebooks/spectra_viewer.ipynb)
 - A basic fluorescence spectra viewer.
 - Data_examples: filter_spectrum_479-585.txt, filter_spectrum_524_628.txt, fp_spectra_egfp.csv, fp_spectra_mapple.csv, led_spectrum_M470L5.xlsx, led_spectrum_M565L3.xlsx.
 
-### superplots 
+### [superplots](Notebooks/superplots.ipynb) 
 - Creates SuperPlots in Python using Matplotlib and Seaborn. This notebook adapts the tutorial by [Lord et al., 2020](https://doi.org/10.1083/jcb.202001064).
 - Data_examples: cell_types_specimen_details.csv, jcb_202001064_datas1.txt.
 
-### time_series_preprocessing
+### [time_series_preprocessing](Notebooks/time_series_preprocessing.ipynb)
 - Examples for detrending, filtering, and smoothing time series.
 - Data_examples: WF01a.csv, WF02b.csv.
 
-### video_to_tif 
+### [video_to_tif](video_to_tif.ipynb)
 - Reads video files (e.g., AVI, MP4) with [OpenCV](https://docs.opencv.org/2.4/index.html) and converts them to TIFF files, with options for downsampling.
 - Data_examples: FCM01.avi, FCM02a.mp4.
 
