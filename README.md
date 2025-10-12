@@ -8,7 +8,7 @@ This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.
 
 To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
 
-### [cellpose_estimation_2p](Notebooks/cellpose_estimation_2p.ipynb)
+### [cellpose_estimation_2p](Notebooks/cellpose_segmentation_2p.ipynb)
 - Uses [cellpose](https://github.com/MouseLand/cellpose) to segment neurons from two-photon calcium imaging, then extracts and plots deltaF/F traces from each neuron.
 - Data_examples: 2P_GCaMP8m.tif, 2P_somaFRCaMPi.tif
 
@@ -40,7 +40,7 @@ To simplify the folder structure of this GitHub repository, I have placed all th
 - Examples for detrending, filtering, and smoothing time series.
 - Data_examples: WF01a.csv, WF02b.csv.
 
-### [video_to_tif](video_to_tif.ipynb)
+### [video_to_tif](Notebooks/video_to_tif.ipynb)
 - Reads video files (e.g., AVI, MP4) with [OpenCV](https://docs.opencv.org/2.4/index.html) and converts them to TIFF files, with options for downsampling.
 - Data_examples: FCM01.avi, FCM02a.mp4.
 
