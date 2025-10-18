@@ -1,6 +1,8 @@
 # Neuroscience Notebook Templates
 
-This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.nl/research-groups/lohmann/). Here, you will find basic templates for processing and analyzing neuroscience data that you may find useful. The notebooks are tested to run with the corresponding example data in the **Data_examples** folder. Feel free to modify the notebooks for your own analysis.
+This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.nl/research-groups/lohmann/). Here, you will find basic templates for processing and analyzing neuroscience data that you may find useful. 
+
+If you **clone the repository**, you should be able to run all the cells of each notebook using the corresponding example data in the **Data_examples** folder. Feel free to modify the notebooks for your own analysis.
 
 **Note**: All external libraries used in these notebooks are credited to their respective authors and contributors, subject to their licenses and terms.
 
