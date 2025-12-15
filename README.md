@@ -106,3 +106,10 @@ To simplify the folder structure of this GitHub repository, I have placed all th
 - VanderPlas J, 2016. [A Whirlwind Tour of Python](https://nbviewer.org/github/jakevdp/WhirlwindTourOfPython/tree/master/). [GitHub](https://github.com/jakevdp/WhirlwindTourOfPython/).
 - VanderPlas, 2016. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/). [Notebooks on GitHub](https://github.com/jakevdp/PythonDataScienceHandbook).
 
+## Python style guides
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). 
+- [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/). 
+- [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/). 
+- [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/). Python Best Practices Guidebook.
+
+
