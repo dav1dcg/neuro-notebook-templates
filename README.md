@@ -10,6 +10,10 @@ If you **clone the repository**, you should be able to run all the cells of each
 
 To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
 
+### [caiman_motion_correction](Notebooks/caiman_motion_correction.ipynb)
+- How to use the package [CaImAn](https://github.com/flatironinstitute/CaImAn) for motion correction of time-series confocal recordings.
+- Data_examples: dendrite_ch1.tif, dendrite_ch2.tif
+
 ### [cellpose_estimation_2p](Notebooks/cellpose_segmentation_2p.ipynb)
 - Uses [cellpose](https://github.com/MouseLand/cellpose) to segment neurons from two-photon calcium imaging, then extracts and plots deltaF/F traces from each neuron.
 - Data_examples: 2P_GCaMP8m.tif, 2P_somaFRCaMPi.tif
