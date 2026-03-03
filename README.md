@@ -1,12 +1,12 @@
 # Neuroscience Notebook Templates
 
-This repository contains Jupyter notebooks I wrote in the [SND lab](https://nin.nl/research-groups/lohmann/). Here, you will find basic templates for processing and analyzing neuroscience data that you may find useful. 
+This repository contains basic templates for processing and analyzing neuroscience data that you may find useful. 
 
 If you **clone the repository**, you should be able to run all the cells of each notebook using the corresponding example data in the **Data_examples** folder. Feel free to modify the notebooks for your own analysis.
 
 **Note**: All external libraries used in these notebooks are credited to their respective authors and contributors, subject to their licenses and terms.
 
-# List of Jupyter Notebooks
+# Jupyter Notebooks
 
 To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
 
@@ -54,15 +54,13 @@ To simplify the folder structure of this GitHub repository, I have placed all th
 
 Notebooks adapted from the [ONWAR](https://onwar.nl/) course Python for Neuroscience 2026.
 
-1. P4N_01_patch-clamp_memb-properties
-
-
-The notebooks can be launched in **Google Colab** using the button below. 
-
-<a target="_blank" href="https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/tree/main/Python4Neuro_2026">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
+1. 
+[P4N_01_patch-clamp_memb-properties ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_01_patch-clamp_memb-properties.ipynb)
+2. [P4N_02_patch-clamp_APs ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_02_patch-clamp_APs.ipynb)
+3. [P4N_03_patch-clamp_dataframes ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_03_patch-clamp_dataframes.ipynb)
+4. [P4N_04_patch-clamp_events ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_04_patch-clamp_events.ipynb)
+5. [P4N_05_2P-ca_pre-processing ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_05_2P-ca_pre-processing.ipynb)
+6. [P4N_06_2P-ca_segmentation ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_06_2P-ca_segmentation.ipynb)
 
 # Python Resources
 
