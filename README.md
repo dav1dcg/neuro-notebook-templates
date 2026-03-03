@@ -57,11 +57,7 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course Python for Neurosci
 1. P4N_01_patch-clamp_memb-properties
 
 
-The notebooks can be launched in **Google Colab** using the button below. 
-
-<a target="_blank" href="https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/tree/main/Python4Neuro_2026">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+Click [here]([https://github.com/dav1dcg/neuro-notebook-templates/tree/main/Python4Neuro_2026](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/tree/main/Python4Neuro_2026)) to launch the notebooks in **Google Colab**. 
 
 
 # Python Resources
