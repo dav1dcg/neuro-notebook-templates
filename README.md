@@ -55,8 +55,7 @@ To simplify the folder structure of this GitHub repository, I have placed all th
 Notebooks adapted from the [ONWAR](https://onwar.nl/) course Python for Neuroscience 2026.
 
 
-1. 
-[P4N_01_patch-clamp_memb-properties ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_01_patch-clamp_memb-properties.ipynb)
+1. [P4N_01_patch-clamp_memb-properties ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_01_patch-clamp_memb-properties.ipynb)
 
 2. [P4N_02_patch-clamp_APs ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dav1dcg/neuro-notebook-templates/blob/main/Python4Neuro_2026/P4N_02_patch-clamp_APs.ipynb)
 
