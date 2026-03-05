@@ -2,13 +2,11 @@
 
 This repository contains basic templates for processing and analyzing neuroscience data that you may find useful. 
 
-If you **clone the repository**, you should be able to run all the cells of each notebook using the corresponding example data in the **Data_examples** folder. Feel free to modify the notebooks for your own analysis.
+All external libraries used in these notebooks are credited to their respective authors and contributors, subject to their licenses and terms.
 
-**Note**: All external libraries used in these notebooks are credited to their respective authors and contributors, subject to their licenses and terms.
+# Notebooks
 
-# Jupyter Notebooks
-
-To simplify the folder structure of this GitHub repository, I have placed all the example files into the **Data_examples** folder. If you **clone the repository**, you should be able to run all the cells of each notebook.
+If you **clone the repository**, you should be able to run all the cells of each Jupyter notebook using the corresponding example data in the **Data_examples** folder. Feel free to modify the notebooks for your own analysis.
 
 - **[caiman_motion_correction](Notebooks/caiman_motion_correction.ipynb)**
     - How to use the package [CaImAn](https://github.com/flatironinstitute/CaImAn) for motion correction of time-series confocal recordings.
@@ -61,7 +59,7 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course "Python for Neurosc
 
 # Python Resources
 
-## Jupyter Notebooks
+**Jupyter Notebooks**
 
 - Barba et al., 2019. [Teaching and Learning with Jupyter](https://jupyter4edu.github.io/jupyter-edu-book/).
 - Codecademy. [Basics of Jupyter Notebooks](https://www.codecademy.com/articles/how-to-use-jupyter-notebooks).
@@ -69,7 +67,9 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course "Python for Neurosc
 - Rule et al., 2019. [Ten Simple Rules for Writing and Sharing Computational Analyses in Jupyter Notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007007). [GitHub](https://github.com/jupyter-guide/ten-rules-jupyter?tab=readme-ov-file).
 - VanderPlas, 2017. [Reproducible Data Analysis in Jupyter](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/).
 
-## Tutorials and Courses for Beginners
+<br>
+
+**Tutorials and Courses for Beginners**
 
 - Blomqvist et al., 2020. [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/).
 - Code Refinery. [Data Visualization with Python](https://coderefinery.github.io/data-visualization-python/).
@@ -78,7 +78,9 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course "Python for Neurosc
 - Shafer. [Python Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU). 150+ video tutorials.
 - Software Carpentry. [Basics](https://swcarpentry.github.io/python-novice-inflammation/) and [Plotting](https://swcarpentry.github.io/python-novice-gapminder/) in Python.
 
-## Scientific Computing
+<br>
+
+**Scientific Computing**
 
 - Carey and Papin, 2018. [Ten Simple Rules for Biologists Learning to Program](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871).
 - FAIR Principles. [Findability, Accessibility, Interoperability, and Reusability](https://www.go-fair.org/fair-principles/).
@@ -89,21 +91,27 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course "Python for Neurosc
 - Sandve et al., 2013. [Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285).
 - Wilson et al., 2017. [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510).
 
-## Data visualization
+<br>
+
+**Data visualization**
 
 - Friends Don't Let Friends Make Bad Graphs. [GitHub](https://github.com/cxli233/FriendsDontLetFriends). Good examples (in R) about good and bad practices in data visualization
 - [From Data to Viz](https://www.data-to-viz.com/). Great website on choosing the right graph with examples in [Python](https://python-graph-gallery.com/).
 - [Python Color Palette Finder](https://python-graph-gallery.com/color-palette-finder/): A collection of 2500+ palettes to use directly in Matplotlib.
 - [Seaborn](https://seaborn.pydata.org/tutorial.html). Superb data visualization library based on matplotlib.
 
-## Statistics
+<br>
+
+**Statistics**
 - James et al., 2023. [An Introduction to Statistical Learning](https://www.statlearning.com/).
 - Lindeløv, 2019. [Common statistical tests are linear models](https://www.georgeho.org/tests-as-linear/). Port to Python by George Ho.
 - Navarro and Weed, 2021. [Learning Statistics with Python](https://ethanweed.github.io/pythonbook/landingpage.html).
 - Poldrack R, 2024. Statistical Thinking for the 21st Century. [Book](https://statsthinking21.github.io/statsthinking21-core-site/index.html), [Python code](https://statsthinking21.github.io/statsthinking21-python/).
 - Weed, 2021. [Learning Statistics with Python](https://ethanweed.github.io/pythonbook/landingpage.html).
 
-## Neuroscience
+<br>
+
+**Neuroscience**
 
 - Data Carpentry. [Image Processing with Python](https://datacarpentry.org/image-processing/).
 - DeepLabCut. [GitHub](https://github.com/DeepLabCut). Widely used toolbox for pose estimation. 
@@ -113,15 +121,17 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course "Python for Neurosc
 - Newman A. [Data Science for Psychology and Neuroscience](https://neuraldatascience.io/intro.html). Examples of single-unit, EEG, and MRI data.
 - Spikes and Bursts Blog. [Patch-Clamp Data Analysis in Python](https://spikesandbursts.wordpress.com/patch-clamp/). Tutorials for analyzing action potentials, synaptic events, etc., from my [Spikes and Bursts](https://spikesandbursts.wordpress.com/about/) neuroscience blog.
 
-## Books
+<br>
+
+**Books**
 
 - VanderPlas J, 2016. [A Whirlwind Tour of Python](https://nbviewer.org/github/jakevdp/WhirlwindTourOfPython/tree/master/). [GitHub](https://github.com/jakevdp/WhirlwindTourOfPython/).
 - VanderPlas, 2016. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/). [Notebooks on GitHub](https://github.com/jakevdp/PythonDataScienceHandbook).
 
-## Python style guides
+<br>
+
+**Python style guides**
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). 
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/). 
 - [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/). 
 - [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/). Python Best Practices Guidebook.
-
-
