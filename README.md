@@ -89,6 +89,7 @@ Notebooks adapted from the [ONWAR](https://onwar.nl/) course "Python for Neurosc
 - [pyOpenSci Python Package Guide](https://www.pyopensci.org/python-package-guide/index.html).
 - [Python Packages Workflow](https://py-pkgs.org/welcome). Workflows for creating Python packages.
 - Sandve et al., 2013. [Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285).
+- [Scientific Python Lecture notes](https://lectures.scientific-python.org/). Great introduction to Scipy and Numpy.
 - Wilson et al., 2017. [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510).
 
 <br>
